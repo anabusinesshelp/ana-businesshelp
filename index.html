@@ -548,9 +548,10 @@ footer{background:var(--navy);border-top:1px solid rgba(255,255,255,.06);padding
     <div class="offer-form reveal">
       <h3>Request Your Free Diagnosis</h3>
       <p class="form-sub">We respond within 24 business hours.</p>
-      <form class="form-fields" action="https://formspree.io/f/xnjbbnkr" method="POST">
-        <input type="hidden" name="_subject" value="Free Diagnosis — ANA Business Help">
-        <input type="hidden" name="_next" value="">
+      <form class="form-fields" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="ab75eaf0-a849-4bbf-a3a3-808c895eb2de">
+        <input type="hidden" name="subject" value="Free Diagnosis — ANA Business Help">
+        <input type="hidden" name="redirect" value="false">
         <div class="form-row2">
           <div class="fg"><label>Name</label><input type="text" name="Name" placeholder="Your name" required></div>
           <div class="fg"><label>Business Name</label><input type="text" name="Business" placeholder="Your company" required></div>
