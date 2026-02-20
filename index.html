@@ -94,7 +94,7 @@ h2{font-family:'Instrument Serif',serif;font-size:clamp(28px,3.2vw,46px);font-we
 .services{background:var(--bg);}
 .services-inner{max-width:1100px;margin:0 auto;}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:52px;align-items:start;}.services-grid .svc-card:last-child:nth-child(3n+1){grid-column:2;}
-.svc-card{background:var(--white);padding:32px 28px;border:1px solid rgba(26,39,68,0.07);border-radius:4px;transition:all .3s;position:relative;overflow:hidden;display:flex;flex-direction:column;}
+.svc-card{background:var(--white);padding:32px 28px;border:1px solid rgba(26,39,68,0.07);border-radius:4px;transition:all .3s;position:relative;overflow:visible;display:flex;flex-direction:column;word-break:break-word;}
 .svc-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transition:transform .3s;transform-origin:left;}
 .svc-card:hover{border-color:rgba(26,39,68,.15);transform:translateY(-3px);}
 .svc-card:hover::after{transform:scaleX(1);}
